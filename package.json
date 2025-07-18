@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "tradingradar xp GUI",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marco Pavan",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-pug": "^1.0.0"
   }
 }
